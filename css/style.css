@@ -53,3 +53,75 @@ header{
     line-height: 24px;
 
 }
+
+.session1 h3 {
+    font-weight: 700;
+    color: #9E8C6C;
+}
+
+.session1 li{
+    font-weight: 400;
+    
+}
+
+li{
+    list-style: none;
+}
+
+.recent_works li{
+    font-weight: 700;
+    color: #0699A6;
+}
+
+.section2{
+    display: flex;
+
+}
+
+.about_me h1{
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+
+.about_me h3{
+    font-weight: 400;
+}
+
+.rectangle{
+    background-color: #0699A6;
+    width: 71px;
+    height: 10px;
+}
+
+.experience h1{
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+
+.experience h3{
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    color: #9E8C6C;
+}
+
+.experience p{
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+}
+
+.second_rectangle{
+    background-color: #0699A6;
+    width: 71px;
+    height: 10px;
+}
+
+.education h1{
+    font-family: "Playfair Display";
+    font-weight: 900;
+}
+
+.education h3{
+    font-family: "PT Sans Narrow";
+    font-weight: 700;
+    color: #9E8C6C;
+}

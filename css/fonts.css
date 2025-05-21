@@ -1,11 +1,23 @@
 @font-face {
     font-family: "PT Sans Narrow";
-    src: url(../fonts/PT_Sans_Narrow/PTSansNarro);
+    src: url(../fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf);
     font-weight: 700;
+}
+
+@font-face {
+    font-family: "PT Sans narrow" ;
+    src: url(../fonts/PT_Sans_Narrow/PTSansNarrow-Regular.ttf);
+    font-weight: 400;
 }
 
 @font-face {
     font-family: "Playfair Display";
     src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf);
     font-weight: 900;
+}
+
+@font-face {
+    font-family: "Lunasima";
+    src: url(../fonts/Lunasima/Lunasima-Bold.ttf);
+    font-weight: 700;
 }
