@@ -41,7 +41,9 @@ header{
     font-size: 126px;
 }
 
-
+.button{
+    box-sizing: border-box;
+}
 
 .button a{
     text-decoration: none;
@@ -51,6 +53,7 @@ header{
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
+    
 
 }
 
@@ -224,11 +227,13 @@ li{
      display: table-caption;
      text-align: center;
      width: 100% ;
+     display: inline;
+    }
      
 }
 
 .button{
-    padding: 14px 30px;
+    
     width: 100%;
     height: auto;
 }
