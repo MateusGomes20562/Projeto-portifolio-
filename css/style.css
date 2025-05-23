@@ -69,6 +69,11 @@ header{
     color: #9E8C6C;
 }
 
+ul{
+    list-style: none;
+    padding-left: 0;
+
+}
 .session1 li{
     font-weight: 400;
     
@@ -139,17 +144,21 @@ li{
 
 .footer{
     background-color: #F5F3F0;
-    color: #0699A6;
     width: 100%;
     height: 547px;
     display: flex;
     justify-content: center;
-    
+
     
     
 }
 
-.footer h1{
+.footer h3{
+
+    color: #0699A6;
+}
+
+.footer h2{
     color: black;
     font-family: "Playfair Display";
     font-weight: 900;
@@ -167,7 +176,6 @@ li{
 }
 
 .redes_sociais{
-    width:242px;
     display: flex;
     justify-content: space-between;
 }
@@ -176,6 +184,10 @@ li{
     .container{
         flex-direction: column;
         justify-content: center;
+        width: 100%;
+        text-align: center;
+      
+        
         
 
     }
@@ -191,13 +203,96 @@ li{
 .banner-img img{
     width: 160px;
     height: 160px;
+    
+}
+
+.banner-img{
+    display: flex;
+    justify-content: center;
 }
 
 .banner-text h2{
-     font-size: 52px;
+     font-size: 64px;
+     line-height: 45px;
+     
 }
-
+.banner-text{
+    width: 100%;
+}
 .banner-text a{
      align-items: center;
+     display: table-caption;
+     text-align: center;
+     width: 100% ;
+     
 }
+
+.button{
+    padding: 14px 30px;
+    width: 100%;
+    height: auto;
+}
+
+.banner-text p{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img h2 {
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;          
+  }
+  .main{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px auto 60px;
+   
+  }
+  .session1{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 20px auto 60px;
+    padding: 0 30px;
+    text-align: left;
+  }
+  .section2{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 20px auto 60px;
+  }
+  
+  .socials{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px auto 60px;
+  
+  }
+  .socials h2{
+    font-size: 36px;
+  }
+
+  .socials h3{
+    font-size: 20px;
+  }
+.redes_sociais{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    align-items: center;
+    
+}
+
+.about_me{
+    flex-direction: column-reverse;
+}
+
 }
