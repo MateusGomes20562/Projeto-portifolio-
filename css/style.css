@@ -44,7 +44,14 @@ header{
 
 }
 
-
+.alerta{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    width: 100%;
+    padding: 16px 8px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
 
 .banner-text h2{
     color: var(--white-color);
@@ -110,6 +117,26 @@ li{
     
     
 
+}
+
+.works{
+    display: flex;
+    justify-content: space-between;
+}
+
+.works img{
+    width: 100%;
+}
+
+.works a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.works .texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about_me h1{
@@ -206,10 +233,6 @@ li{
         justify-content: center;
         width: 100%;
         text-align: center;
-      
-        
-        
-
     }
     header .container{
         justify-content: center;
@@ -246,7 +269,13 @@ li{
      width: 100% ;
      display: inline;
     }
-     
+
+    .session1, .section2{
+        width: 100%;
+    }
+     .works{
+        flex-direction: column;
+     }
 }
 
 .button{
@@ -275,7 +304,7 @@ li{
    
   }
   .session1{
-    width: 100%;
+    
     height: auto;
     box-sizing: border-box;
     margin: 20px auto 60px;
@@ -283,7 +312,7 @@ li{
     text-align: left;
   }
   .section2{
-    width: 100%;
+
     height: auto;
     text-align: left;
     box-sizing: border-box;
