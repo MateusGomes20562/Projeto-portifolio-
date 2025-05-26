@@ -53,6 +53,11 @@ header{
     margin-bottom: 30px;
 }
 
+.alerta p{
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+}
+
 .banner-text h2{
     color: var(--white-color);
      font-weight: 900;
