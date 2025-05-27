@@ -202,7 +202,6 @@ li{
 .footer{
     background-color: var(--primary-color);
     width: 100%;
-    height: 547px;
     display: flex;
     justify-content: center;
 
